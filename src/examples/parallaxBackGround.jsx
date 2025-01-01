@@ -31,7 +31,7 @@ const ParallaxBackground = () => {
   });
 
   return (
-    <>
+    <div className="border border-red-500 relative mb-12">
       <section className="   relative h-lvh flex justify-center items-center">
         <div
           style={{ backgroundImage: `url(${barbaro})` }}
@@ -77,7 +77,7 @@ const ParallaxBackground = () => {
           shit
         </h1>
       </section>
-    </>
+    </div>
   );
 };
 
